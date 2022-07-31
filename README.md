@@ -6,7 +6,7 @@ first the user insert the digits to the board then when clicking on the solve bu
 clicking on the reveal all button, in the end he can clear the board and fill it again.<br>
 
 The logic behind the solver function:<br>
-1) For each empty cell i removed digits that it cannot be filled with(already exists in the same row/column/box).<br>
+1)For each empty cell i removed digits that it cannot be filled with(already exists in the same row/column/box).<br>
 2)Using backtracking with only the possible digits for each empty cell.<br>
 <br>
 linkedIn of creator:<br>
