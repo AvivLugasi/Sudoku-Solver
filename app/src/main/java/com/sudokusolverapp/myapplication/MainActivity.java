@@ -13,8 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Solver gameBoardSolver;
     private Button solveBtn;
     private EditText text;
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         text = findViewById(R.id.inValidText);
         text.setFocusable(false);
         gameBoardSolver = gameBoard.getSolver();
+        System.out.println("testing");
     }
 
     public void BTNOnePress(View view){
